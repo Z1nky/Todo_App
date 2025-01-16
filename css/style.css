@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", serif;
+}
+
+/* Typoghrapy */
+.headline-1{
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-transform: capitalize;
+}
+
+.headline-2{
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    text-transform: capitalize;
+    color: #3D3D3D;
+}
+
+.headline-3{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #3D3D3D;
+}
+
+
+
+/* Utilities */
+.shadow{
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+}
+
+.text-white{
+    color: #fff;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-primary{
+    color: #C5BAFF;
+}
+
+.text-sm{
+    font-size: 0.7rem;
+}
+
+
+header{
+    width: 100%;
+    background-color: #C5BAFF;
+    padding: 15px 20px;
+}
+
+.wrapper{
+    width: 100%;
+    padding: 60px 20px;
+}
+
+.container{
+    max-width: 800px;
+    background-color: #FBFBFB;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input-user{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-task, .input-date{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+input[type=text], input[type=date]{
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 2px solid transparent;
+    background-color: #EEEEEE;
+    font-size: 14px;
+    color: #C5BAFF;
+    outline: none;
+}
+
+input[type=text]:focus, input[type=date]:focus{
+    border: 2px solid #C5BAFF;
+    
+}
+
+input[type=text]::placeholder, input[type=date]::placeholder{
+    font-weight: 600;
+    color: #C5BAFF;
+}
+
+.btn{
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-primary{
+    border: 2px solid transparent;
+    background-color: #C5BAFF;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.btn-primary:hover{
+    border: 2px solid #C5BAFF;
+    background-color: #fff;
+    color: #C5BAFF;
+}
+
+.list-items{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item{
+    background-color: #c5baff4e;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check-button{
+    width: 40px;
+    height: 40px;
+
+    background: url("../assets/check-rounded.svg");
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+
+.check-button:hover{
+    background: url("../assets/check-fill-rounded.svg");
+    background-size: contain;
+}
+
+.undo-button{
+    width: 40px;
+    height: 40px;
+
+    background: url("../assets/undo.svg");
+    background-size: contain;
+    margin-left: auto;
+    border: none;
+    cursor: pointer;
+}
+
+.trash-button{
+    width: 40px;
+    height: 40px;
+
+    background: url("../assets/trash.svg");
+    background-size: contain;
+    margin-left: 5px;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+
+.trash-button:hover{
+    width: 40px;
+    height: 40px;
+
+    background: url("../assets/trash-fill-rounded.svg");
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+}
+
+
+

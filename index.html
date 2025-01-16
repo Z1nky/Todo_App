@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App | Latihan 2</title>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="headline-1 text-white">todo list App</h1>
+    </header>
+
+    <div class="wrapper">
+
+        <div class="container shadow">
+
+            <h1 class="headline-1 text-center text-primary">Add your task</h1>
+
+            <form action="#" class="input-user" id="form">
+                <div class="input-task">
+                    <label for="task" class="label">
+                        Task :
+                    </label>
+                    <input type="text" id="task" name="task" placeholder="Your task" required>
+                </div>
+
+                <div class="input-date">
+                    <label for="date" class="label">
+                        Date :
+                    </label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <input type="submit" class="btn btn-primary">
+            </form>
+        </div>
+
+        <div class="container shadow">
+            <h2 class="headline-2">your task</h2>
+
+            <div class="list-items" id="todo">
+
+                <!-- Render in Javascript -->
+
+            </div>
+        </div>
+
+        <div class="container shadow">
+            <h2 class="headline-2">task completed</h2>
+
+            <div class="list-items" id="completed-todo">
+
+                <!-- Render in Javascript -->
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
