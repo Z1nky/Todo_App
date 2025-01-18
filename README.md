@@ -11,7 +11,7 @@
 Clone projeknya
 
 ```bash
-  git clone https://github.com/Z1nky/Todo_App.git
+  git clone https://github.com/rakhaallea/Todo_App.git
 ```
 
 Buka direktori projek
