@@ -42,4 +42,4 @@ Google font, Google icon, SweetAlert2
 
 ## Authors
 
-- [@Z1nky](https://github.com/rakhaallea)
+- [@rakhaallea](https://github.com/rakhaallea)
